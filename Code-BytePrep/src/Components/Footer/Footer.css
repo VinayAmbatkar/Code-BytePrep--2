@@ -1,0 +1,102 @@
+.footer {
+    background-color: #f0f2f5;
+    padding: 40px 0;
+    color: #333;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-left {
+    max-width: 50%;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .footer-left h2 {
+    font-size: 24px;
+    color: #9b8fff;
+    margin: 0;
+  }
+  
+  .address, .contact {
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    margin: 5px 0;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .footer-right {
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links li {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    position: relative;
+    left: 20px;
+  }
+  
+  .bottom-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bottom-links a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  

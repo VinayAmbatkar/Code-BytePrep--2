@@ -1,0 +1,41 @@
+
+.slider-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  .slick-dots {
+    bottom: 10px;
+  }
+  
+  .slider-item {
+    padding: 20px;
+  }
+  
+  .content {
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: white;
+    position: relative;
+  }
+  
+  .renovation {
+    background-color: #f69a20;
+    background-image: url('/path-to-renovation-image.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .photography {
+    background-color: #1f78d1;
+    background-image: url('/path-to-photography-image.png');
+    background-size: cover;
+    background-position: center;
+  }
+  

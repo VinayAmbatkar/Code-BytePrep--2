@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(to right, #d098e9, #FFFFFF);;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  /* App.css */
+  .sidehero {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: auto;
+    margin-left: 20px;
+    
+  }
+  
+  
+  main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 350px;
+    position: relative;
+    justify-content: flex-start;
+    height: 70vh;
+    margin-right: 40px;
+  
+  }
+  .container2 {
+    max-width: 45%;
+  
+  }
+  .container2 h2{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  .container2 p{
+    color: rgb(53, 52, 52);
+  }
+  .container2 span{
+    color: #bc54ec;
+    align-items: center;
+    
+  }
+  .container2 span1{
+    color: rgb(76, 76, 233);
+  }
+  .container2 button{
+    color: white;
+    border: 3px solid #bc54ec;
+    background-color: #bc54ec;
+    margin: 5px 2px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 7px;
+    border: none;
+  }
+  .container2 button:hover{
+    border: #ccc;
+  }
+
+.slider-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: auto;
+}
+
