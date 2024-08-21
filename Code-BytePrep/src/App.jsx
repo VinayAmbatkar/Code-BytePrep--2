@@ -6,6 +6,7 @@ import Header from './Components/header/Header';
 import SliderComponent from './Components/Slider/SliderComponent';
 import Footer from './Components/Footer/Footer';
 import Login from './Pages/Autentication Page/Login'; // Ensure the path is correct
+import Dashbord from './Pages/Home/Dashbord';
 
 // Landing Page Component
 function LandingPage() {
@@ -41,6 +42,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/auth" element={<Login />} />
+        <Route path="/dashbord" element={<Dashbord />} />
       </Routes>
     </Router>
   );
