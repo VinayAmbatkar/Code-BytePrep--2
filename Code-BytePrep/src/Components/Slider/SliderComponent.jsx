@@ -12,6 +12,8 @@ const SliderComponent = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     arrows: false,
+    autoplay: true,
+    direction: 'ltr',
   };
 
   return (

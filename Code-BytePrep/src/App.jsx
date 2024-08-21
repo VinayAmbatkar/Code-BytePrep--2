@@ -15,8 +15,8 @@ function App() {
       <main>
         <div className="container2">
           <h2><span>A</span> New Way <span>to Learn</span></h2>
-          <p>Develop Early Skills in Logic, Problem Solving, <br />and Reading Comprehension</p>
-          <button type="button mt-4">Create Account</button>
+          <p>Develop Early Skills in Logic, Problem Solving, <br />and Reading Comprehension</p> <br />
+          <button type="button mt-4">Get Started</button>
         </div>
       </main>
       <SliderComponent />
