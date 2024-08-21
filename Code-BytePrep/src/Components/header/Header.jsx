@@ -12,7 +12,7 @@ const Header = () => {
         </div>
         <nav className="nav-links">
           <ol className="flex space-x-8">
-            <li><a href="#practice" className="hover:text-gray-900">Practice</a></li>
+            <li><a href="#practice" className="hover:text-gray-900 cursor-pointer">Practice</a></li>
             <li><a href="#compete" className="hover:text-gray-900">Compete</a></li>
             <li><a href="#explore" className="hover:text-gray-900">Explore</a></li>
             <li><a href="#login" className="text-purple-500 hover:text-purple-700">Login</a></li>

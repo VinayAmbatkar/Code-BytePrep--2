@@ -59,6 +59,7 @@
     font-weight: 600;
     color: #555;
     transition: color 0.3s ease;
+    cursor: pointer;
   }
   
   .nav-links a:hover {

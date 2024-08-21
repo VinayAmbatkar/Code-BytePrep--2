@@ -11,10 +11,11 @@ body {
   .sidehero {
     position: absolute;
     right: 0;
-    top: 0;
-    height: 100vh;
+    top: 8px;
+    height: 100%;
     width: auto;
     margin-left: 20px;
+    z-index: -1;
     
   }
   
